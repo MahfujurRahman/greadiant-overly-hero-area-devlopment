@@ -76,7 +76,7 @@ a:hover { text-decoration: none }
   }
   .menu li a:hover {
     opacity: 1;
-  }
+  } 
   html, body, .hero {
     height: 100%;
   }
