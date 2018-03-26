@@ -67,7 +67,6 @@ a:hover { text-decoration: none }
   }
   .menu li {
     display: inline-block;
-    color: ;
     padding: 30px;
   }
   .menu li a {
@@ -77,8 +76,6 @@ a:hover { text-decoration: none }
   }
   .menu li a:hover {
     opacity: 1;
-  }
-  .hero {
   }
   html, body, .hero {
     height: 100%;
@@ -100,6 +97,7 @@ a:hover { text-decoration: none }
 .hero-text h1 {
     color: #fff;
     font-size: 55px;
+    font-weight: normal;
   }
   .hero-text p {
     color: #fff;
@@ -107,23 +105,31 @@ a:hover { text-decoration: none }
     font-size: 16px;
     margin-bottom: 50px;
   }
-  .her-bottun-1 {
+  /* .her-bottun-1 {
     border: 2px solid #fff;
     padding: 20px 30px;
     border-radius: 50px;
-  }
+  } */
   .hero-text a {
     text-transform: uppercase;
     color: #fff;
     font-size: 17px;
     font-weight: 600;
+    text-decoration: underline;
+    transition: .3s;
+  }
+  .hero-text a:hover{
+    border: 2px solid #fff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    text-decoration: none;
   }
   .her-bottun-2 {
     text-decoration: underline;
     margin-left: 25px;
   }
   .hero-img {
-    padding-top: 55px;
+    padding-top: 57px;
   }
   .hero-text {
     padding-top: 215px;
